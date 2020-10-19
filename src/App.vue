@@ -1,15 +1,15 @@
 <template>
   <div class="container">
-    <hot-showing></hot-showing>
+    <scene></scene>
 
   </div>
 </template>
 
 <script>
-import hotShowing from "./views/home/movies/hotShowing.vue"
+import scene from "./views/scene/scene.vue"
 export default {
   components:{
-    hotShowing
+    scene
   }
 }
 </script>
